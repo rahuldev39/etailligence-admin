@@ -130,7 +130,9 @@ section.box.marginBottom0,
     display: inline-block;
     width: 100%;
     margin-top: 0px;
+    margin-bottom: 20px;
 }
+
 /*---------------------------------
     Typography
 -----------------------------------*/
@@ -4900,7 +4902,7 @@ code {
     margin-top: 45px;
     display: inline-block;
     width: 100%;
-    padding: 5px 30px 0 30px;
+    padding: 10px 45px 0 45px;
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -8177,5 +8179,188 @@ table.dataTable.display tbody tr:first-child td {
 }
 .overview-menu {
     margin: 8px 0px !important;
+}
+.box-view {
+    border-radius: 5.22px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.25);
+    padding: 12px 20px;
+    margin-bottom: 20px
+}
+.box-view .box-view-content h3 {
+    color: #323C47;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.box-view-content p{
+  color: #282D32;
+  font-size: 11.25px;
+  line-height: 15px;
+}
+
+.brand-profile{
+  display: flex;
+  align-items: center;
+}
+.brand-logo img {
+    height: 41px;
+    border-radius: 50%;
+}
+.brand-detail {
+    flex: 1;
+    margin-left: 15px;
+    margin-right: 8px;
+}
+.brand-detail span{
+  display: block;
+}
+.brand-name{
+color: #323C47;
+font-size: 11.84px;
+letter-spacing: -0.13px;
+line-height: 15px;
+}
+.brand-web{
+color: rgba(50,60,71,0.5);
+font-size: 7.66px;
+letter-spacing: 0.17px;
+line-height: 24px;
+}
+.brand-comp{
+  color: rgba(50,60,71,0.61);
+  	font-size: 9.06px;
+    letter-spacing: -0.07px;
+    line-height: 11px;
+  }
+
+    .brand-box{
+      display: flex;
+      align-items: center;
+    }
+    .social-links-container {
+    flex: 1;
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+.social-links-container span {
+    font-size: 11px;
+    letter-spacing: -0.08px;
+    line-height: 14px;
+    display: block;
+}
+.social-links-container span.text-gray{
+  color: #323C47;
+}
+.social-links-container span.green{
+color: #417505;
+}
+.social-links-container span.purple{
+  	color: #9013FE;
+}
+.social-links-container span.red{
+  color: red
+}
+    .social-list a {
+      height: 18px;
+      width: 18px;
+    border-radius: 50%;
+    background-color: #444444;
+    display: inline-block;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 3.5px;
+}
+.social-list-sm a{
+  height: 16px;
+  width: 16px;
+  margin: 0px 2px;
+}
+    .social-list a i{
+    font-size: 11px;
+    }
+
+    .social-list-sm a i{
+      font-size: 9px
+    }
+
+    .social-list-separator {
+    padding-left: 16px;
+    margin-left: 5px;
+    position: relative;
+}
+.social-list-separator::before {
+    content: "";
+    position: absolute;
+    width: 0.5px;
+    background-color: #9797978a;
+    left: 0px;
+    height: 68%;
+    top: 11px;
+}
+.fav-link{
+
+  font-size: 10px;
+  letter-spacing: -0.08px;
+  line-height: 12px;
+  display: flex;align-items: center;
+  justify-content: flex-end;
+  margin-top: 8px
+}
+.fav-link img{
+  margin-right: 8px
+}
+.fav-link span.green{
+  color: #417505;
+}
+
+.view-more-link {
+  color: rgba(50,60,71,0.5);
+  font-size: 9.58px;
+  letter-spacing: 0.17px;
+  line-height: 24px;
+}
+.brand-profile {
+    display: flex;
+    align-items: center;
+    min-width: 158px;
+}
+.news-feed-box{
+  display: flex;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #dddfe3;
+  margin-bottom: 15px
+}
+.news-feed-content{
+  flex: 1
+}
+.news-feed-content h3 {
+    margin-bottom: 3px !important;
+}
+.news-feed-content span {
+    display: inline-block;
+    font-size: 11.5px;
+}
+.news-feed-img img {
+    max-width: 103px;
+    border-radius: 10px;
+    margin-left: 15px
+}
+.header-date{
+  color: rgba(43,48,52,0.4);
+    font-size: 11.75px;
+    line-height: 14px;
+  text-align: right;
+}
+.page-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /*#####################################################################*/
