@@ -8409,6 +8409,7 @@ line-height: 18px;
 .brand-select .brand-logo img {
     height: 57px;
     border-radius: 50%;
+    border: 2px solid white;
 }
 .select-input-box{
 
@@ -8429,8 +8430,8 @@ line-height: 18px;
     background-color: #FFFFFF;
     box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.05);
     padding: 20px;
-    margin-bottom: 30px;
     position: relative;
+    height: 100%;
 }
 .slected-icon {
     position: absolute;
@@ -8441,6 +8442,7 @@ line-height: 18px;
     border: 0.87px solid #E9EFF4;
     border-radius: 4.35px;
     margin-top: 20px;
+    overflow: hidden;
 }
 .competitors-data-top {
     display: flex;
@@ -8519,11 +8521,99 @@ display: block;
 }
 .competitors-list-view {
     order: 4;
+    width: 100%;
 }
 .analyze-view{
   max-width: 265px
 }
 .select-brand-view{
   flex-basis: 700px
+}
+
+.title.bold{
+  color: #282D32;
+  font-size: 21.83px;
+  font-weight: bold;
+  line-height: 27px;
+}
+.box-view.border-less{
+  background-color: #FFFFFF;
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    margin-bottom: 30px;
+    height: 100%
+}
+.page-title h1 small{
+  margin-left: 20px
+}
+.page-title h1 small a{
+  color: #73a4ea
+}
+.my-brand
+{
+  	background: linear-gradient(132.72deg, #162748 0%, #1E87F0 100%);
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.02);
+}
+.my-brand .brand-profile h4 {
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: -0.18px;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+.my-brand .brand-profile .brand-name {
+    color: #FFFFFF;
+    font-size: 11.84px;
+    font-weight: bold;
+    letter-spacing: -0.13px;
+    line-height: 15px;
+}
+.my-brand .brand-profile .brand-web {
+    color: #FFFFFF;
+    font-size: 7.66px;
+    letter-spacing: 0.14px;
+    line-height: 16px;
+}
+.my-brand .brand-profile .brand-comp{
+color: #FFFFFF;
+font-size: 9.06px;
+letter-spacing: -0.07px;
+line-height: 11px;
+}
+.flex-row{
+  display: flex;
+  flex-wrap:wrap;
+
+}
+.competitors-list .row > div{
+  margin-bottom: 30px
+}
+.my-brand .competitors-data-top > div > span,
+.my-brand .competitors-data-chart span,
+.my-brand .competitors-data-top > div h4
+ {
+    color: white !important;
+}
+.my-brand .competitors-data-top > div h4 span {
+    background-color: white;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-bottom: 1px solid #ddd;
+    border-top: 0px;
+}
+.table td .icon-img {
+    width: 15px;
+}
+.table td.table-lead {
+    color: #333c48;
+    font-size: 13px;
+    font-weight: 600;
+}
+.features-comparison-list .brand-select .brand-name {
+    font-size: 15px;
+    font-weight: 600;
 }
 /*#####################################################################*/
