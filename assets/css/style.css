@@ -8363,4 +8363,167 @@ color: #417505;
   align-items: center;
   justify-content: space-between;
 }
+.steps-view{
+
+}
+.s-head{
+  margin-bottom: 10px
+}
+.s-head h3{
+color: #282D32;
+font-size: 21.83px;
+line-height: 27px;
+}
+.s-head span{
+	color: #000A12;
+  font-size: 10.13px;
+  line-height: 15px;
+  display: block;
+}
+.selected-brand{
+	border: 0.87px solid #417505;
+  border-radius: 5.22px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.02);
+  display: inline-block;
+  padding: 10px 25px
+}
+.brand-select .brand-name{
+color: #323C47;
+font-size: 14.8px;
+letter-spacing: -0.17px;
+line-height: 18px;
+}
+.brand-select .brand-web {
+    color: rgba(50,60,71,0.5);
+    font-size: 9.58px;
+    letter-spacing: 0.17px;
+    line-height: 24px;
+}
+.brand-select .brand-comp {
+    color: rgba(50,60,71,0.61);
+    font-size: 11.32px;
+    letter-spacing: -0.09px;
+    line-height: 15px;
+}
+.brand-select .brand-logo img {
+    height: 57px;
+    border-radius: 50%;
+}
+.select-input-box{
+
+}
+.select-input-box input, .select-input-box input:focus {
+    height: 45px;
+    max-width: 843.75px;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+    border: 0px;
+    background-image: url(./../images/search-icon.jpg);
+    background-repeat: no-repeat;
+    background-position: 20px 11px;
+    padding-left: 56px;
+}
+.competitors-item {
+    border-radius: 5.22px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.slected-icon {
+    position: absolute;
+    right: -6px;
+    top: -9px;
+}
+.competitors-data {
+    border: 0.87px solid #E9EFF4;
+    border-radius: 4.35px;
+    margin-top: 20px;
+}
+.competitors-data-top {
+    display: flex;
+    border-bottom: 0.87px solid #E9EFF4;
+}
+.competitors-data-top > div {
+    flex: 1;
+    padding: 12px 25px 10px 20px;
+}
+.competitors-data-top > div h4 {
+    color: #FF6D4A;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    font-weight: 500;
+}
+.competitors-data-top > div h4 span {
+    height: 7px;
+    width: 7px;
+    display: inline-block;
+    background-color: #FF6D4A;
+    border-radius: 50%;
+    margin-bottom: 3px;
+}
+.competitors-data-top > div > span{
+color: #323C47;
+font-size: 10px;
+letter-spacing: 0.34px;
+line-height: 12px;
+font-weight: 600;
+display: block;
+}
+.data-features{
+  border-right: 0.87px solid #E9EFF4;
+}
+.data-features h4{
+  color: #5da2ff !important
+}
+.competitors-data-chart{
+  padding-top: 10px
+}
+.competitors-data-chart span{
+  color: #323C47;
+  font-size: 10px;
+  letter-spacing: 0.34px;
+  line-height: 12px;
+  font-weight: 600;
+  display: block;
+  padding-left: 20px
+}
+.step-view{
+  margin-bottom: 35px
+}
+.select-input-box{
+  margin-bottom: 35px
+}
+.analyze-btn{
+  margin-top: 15px
+}
+.btn-analyze{
+  background-color: #192749;
+  color: white;
+  height: 60px;
+  width: 250px;
+  border-radius: 4px
+}
+.btn-analyze:hover, .btn-analyze:focus{
+    color: #ffffff;
+    background: #111e38;
+}
+.steps-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.competitors-list-view {
+    order: 4;
+}
+.analyze-view{
+  max-width: 265px
+}
+.select-brand-view{
+  flex-basis: 700px
+}
 /*#####################################################################*/
