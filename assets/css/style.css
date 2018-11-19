@@ -8432,6 +8432,9 @@ line-height: 18px;
     padding: 20px;
     position: relative;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .slected-icon {
     position: absolute;
@@ -8450,7 +8453,7 @@ line-height: 18px;
 }
 .competitors-data-top > div {
     flex: 1;
-    padding: 12px 25px 10px 20px;
+    padding: 12px 15px 10px 20px;
 }
 .competitors-data-top > div h4 {
     color: #FF6D4A;
@@ -8468,13 +8471,13 @@ line-height: 18px;
     border-radius: 50%;
     margin-bottom: 3px;
 }
-.competitors-data-top > div > span{
-color: #323C47;
-font-size: 10px;
-letter-spacing: 0.34px;
-line-height: 12px;
-font-weight: 600;
-display: block;
+.competitors-data-top > div > span {
+    color: #323C47;
+    font-size: 9.5px;
+    letter-spacing: 0.34px;
+    line-height: 12px;
+    font-weight: 600;
+    display: block;
 }
 .data-features{
   border-right: 0.87px solid #E9EFF4;
@@ -8560,13 +8563,14 @@ display: block;
     letter-spacing: -0.18px;
     line-height: 20px;
     margin-bottom: 4px;
+    margin-top: 0px;
 }
 .my-brand .brand-profile .brand-name {
     color: #FFFFFF;
-    font-size: 11.84px;
+    font-size: 11.84px !important;
     font-weight: bold;
     letter-spacing: -0.13px;
-    line-height: 15px;
+    line-height: 12px;
 }
 .my-brand .brand-profile .brand-web {
     color: #FFFFFF;
@@ -8585,8 +8589,10 @@ line-height: 11px;
   flex-wrap:wrap;
 
 }
-.competitors-list .row > div{
-  margin-bottom: 30px
+.competitors-list .row > div {
+    margin-bottom: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 .my-brand .competitors-data-top > div > span,
 .my-brand .competitors-data-chart span,
