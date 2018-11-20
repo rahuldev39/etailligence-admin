@@ -8485,10 +8485,10 @@ line-height: 18px;
 .data-features h4{
   color: #5da2ff !important
 }
-.competitors-data-chart{
+.competitors-data-chart, .search-link-container{
   padding-top: 10px
 }
-.competitors-data-chart span{
+.competitors-data-chart span, .search-link-container span{
   color: #323C47;
   font-size: 10px;
   letter-spacing: 0.34px;
@@ -8596,7 +8596,8 @@ line-height: 11px;
 }
 .my-brand .competitors-data-top > div > span,
 .my-brand .competitors-data-chart span,
-.my-brand .competitors-data-top > div h4
+.my-brand .competitors-data-top > div h4,
+.my-brand .search-link-container > span
  {
     color: white !important;
 }
@@ -8621,5 +8622,75 @@ line-height: 11px;
 .features-comparison-list .brand-select .brand-name {
     font-size: 15px;
     font-weight: 600;
+}
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-header .search-list {
+  margin-bottom: 15px
+}
+.search-list ul {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: center;
+}
+.search-list li{
+
+}
+.search-list li a {
+    padding: 0px 3px;
+    display: block;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    margin: 2px;
+}
+.search-list li a:hover{
+  border: 2px solid #060606;
+}
+.search-list li a img{
+
+}
+.search-link-container .search-list {
+  padding-bottom: 10px;
+  padding-top: 2px
+}
+.sentiment-analysis-container {
+    display: flex;
+}
+.sentiment-analysis-container .analysis-chart {
+    flex: 1;
+    margin: 8px;
+}
+.sentiment-analysis-container .analysis-chart img{
+  width: 100%
+}
+.feed-header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px
+}
+.feed-header span{
+  color: #282D32;
+  font-size: 16.79px;
+  line-height: 16px;
+  margin-left: 20px
+}
+.quick-link-brand  .competitors-data {
+  	border: 0.7px solid #b9cbe0 !important;
+    border-radius: 4.35px;
+    margin-top: 20px;
+    overflow: hidden;
+    background: linear-gradient(180.83deg, rgba(255, 255, 255, 0) 0%, #ffffff45 100%);
+}
+.quick-link-brand .data-features {
+    border-right: 2px solid #6d92c4;
+}
+.quick-link-brand .competitors-data-top {
+    display: flex;
+    border-bottom: 2px solid #6d92c4;
 }
 /*#####################################################################*/
