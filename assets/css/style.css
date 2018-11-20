@@ -8749,4 +8749,7 @@ line-height: 11px;
 .profile-info-container{
   height: auto !important;
 }
+.profile-icon {
+    font-size: 17px !important;
+}
 /*#####################################################################*/
