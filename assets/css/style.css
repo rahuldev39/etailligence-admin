@@ -8693,4 +8693,42 @@ line-height: 11px;
     display: flex;
     border-bottom: 2px solid #6d92c4;
 }
+.social-feed-view {
+    width: 20%;
+    padding: 0px 15px;
+    margin-bottom: 20px;
+    border-right: 1px solid #f0f4f7;
+}
+.top-social-links{
+  margin-bottom: 20px
+}
+.top-social-links ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  list-style-type: none;
+}
+.top-social-links li.active a{
+  background-color: #192749
+}
+.top-social-links a{
+  display: flex;
+  height: 25px;
+  width: 25px;
+  background-color: #c9c9c9;
+  color: white;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.top-social-links a span {
+    position: absolute;
+    border-radius: 50%;
+    top: -8px;
+    right: -9px;
+}
+.social-feeds-container{
+  display: flex;
+}
 /*#####################################################################*/
