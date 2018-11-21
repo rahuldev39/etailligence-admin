@@ -8752,4 +8752,9 @@ line-height: 11px;
 .profile-icon {
     font-size: 17px !important;
 }
+.new-feed-container{
+  position: relative;
+  padding-right:15px;
+  overflow: hidden;;
+}
 /*#####################################################################*/
