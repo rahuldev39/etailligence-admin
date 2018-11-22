@@ -8757,4 +8757,28 @@ line-height: 11px;
   padding-right:15px;
   overflow: hidden;;
 }
+
+.page-not-found-container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+.page-not-found-container .not-found-img{
+
+}
+.page-not-found-container .not-found-img img {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 372px;
+}
+.page-not-found-container h4 {
+    font-size: 1.4rem;
+    margin-bottom: 7px;
+}
+.page-not-found-container span {
+    font-size: 13px;
+}
+.page-search {
+    margin: 22px 0px;
+}
 /*#####################################################################*/
