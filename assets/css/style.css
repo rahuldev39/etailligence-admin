@@ -8429,7 +8429,7 @@ line-height: 18px;
     border-radius: 5.22px;
     background-color: #FFFFFF;
     box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.05);
-    padding: 20px;
+    padding: 15px 12px;
     position: relative;
     height: 100%;
     display: flex;
@@ -8453,7 +8453,10 @@ line-height: 18px;
 }
 .competitors-data-top > div {
     flex: 1;
-    padding: 12px 15px 10px 20px;
+    padding: 12px 11px 10px 15px;
+}
+.brand-row .competitors-data-top > div:first-child {
+    max-width: 77px;
 }
 .competitors-data-top > div h4 {
     color: #FF6D4A;
@@ -8473,7 +8476,7 @@ line-height: 18px;
 }
 .competitors-data-top > div > span {
     color: #323C47;
-    font-size: 9.5px;
+    font-size: 8.3px;
     letter-spacing: 0.34px;
     line-height: 12px;
     font-weight: 600;
@@ -8488,14 +8491,14 @@ line-height: 18px;
 .competitors-data-chart, .search-link-container{
   padding-top: 10px
 }
-.competitors-data-chart span, .search-link-container span{
-  color: #323C47;
-  font-size: 10px;
-  letter-spacing: 0.34px;
-  line-height: 12px;
-  font-weight: 600;
-  display: block;
-  padding-left: 20px
+.competitors-data-chart span, .search-link-container span {
+    color: #323C47;
+    font-size: 9px;
+    letter-spacing: 0.34px;
+    line-height: 12px;
+    font-weight: 600;
+    display: block;
+    padding-left: 20px;
 }
 .step-view{
   margin-bottom: 35px
@@ -8564,6 +8567,7 @@ line-height: 18px;
     line-height: 20px;
     margin-bottom: 4px;
     margin-top: 0px;
+    font-size: 16px;
 }
 .my-brand .brand-profile .brand-name {
     color: #FFFFFF;
@@ -8616,11 +8620,11 @@ line-height: 11px;
 }
 .table td.table-lead {
     color: #333c48;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 600;
 }
 .features-comparison-list .brand-select .brand-name {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
 }
 .box-header {
@@ -8820,4 +8824,24 @@ line-height: 11px;
 .red {
     color: #ca0c1f;
 }
+.brand-row {
+    display: flex;
+    margin: 0px -5px
+}
+.brand-row > div {
+    flex: 1;
+    padding: 0px 5px;
+    margin-bottom: 20px;
+}
+.table-box-view {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.page-topbar .dropdown-menu-right:after,
+.page-topbar .dropdown-menu-right:before {
+    bottom: 100%;
+    left:auto;
+    right: 12px
+}
+.dropdown-menu-right
 /*#####################################################################*/
