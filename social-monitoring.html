@@ -45,18 +45,14 @@
 
     <!-- BEGIN BODY -->
     <body class=" "><!-- START TOPBAR -->
-<div class='page-topbar '>
+<div class='page-topbar sidebar_shift'>
     <div class='logo-area'>
 
     </div>
     <div class='quick-area'>
         <div class='pull-left'>
             <ul class="info-menu left-links list-inline list-unstyled">
-                <li class="sidebar-toggle-wrap">
-                    <a href="#" data-toggle="sidebar" class="sidebar_toggle">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </li>
+                
                 <li class="message-toggle-wrapper">
                     <a href="#" data-toggle="dropdown" class="toggle">
                         <i class="fa fa-envelope"></i>
@@ -231,7 +227,7 @@
 
     <!-- SIDEBAR - START -->
 
-<div class="page-sidebar fixedscroll">
+<div class="page-sidebar fixedscroll collapseit">
 
     <!-- MAIN MENU - START -->
     <div class="page-sidebar-wrapper" id="main-menu-wrapper">
@@ -363,7 +359,7 @@
 </div>
 <!--  SIDEBAR - END -->
     <!-- START CONTENT -->
-<section id="main-content" class=" ">
+<section id="main-content" class=" sidebar_shift">
     <section class="wrapper main-wrapper row" style=''>
 
     <div class=''>
@@ -852,7 +848,33 @@
 
 <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
 
+<script type="text/javascript">
+$('.page-sidebar').mouseover(function() {
+    $("body").addClass("test")
+    $(".page-sidebar").removeClass("collapseit");
+    $(".page-topbar").removeClass("sidebar_shift");
+    $(".page-sidebar").removeClass("sidebar_shift");
+});
 
+$('.page-sidebar').mouseout(function() {
+    $("body").addClass("test")
+    $(".page-sidebar").addClass("collapseit");
+    $(".page-topbar").addClass("sidebar_shift");
+    $(".page-sidebar").addClass("sidebar_shift");
+});
+</script>
+
+<script type="text/javascript">
+
+  var topbar = $(".page-topbar").height();
+  var projectinfo = $(".project-info").innerHeight();
+
+  var height = window.innerHeight - topbar - projectinfo;
+
+  $('.page-sidebar').height(height).perfectScrollbar({
+      suppressScrollX: true
+  });
+</script>
 
 <!-- CORE TEMPLATE JS - START -->
 <script src="./assets/js/scripts.js" type="text/javascript"></script>

@@ -7737,9 +7737,9 @@ code {
 
 @media (max-width: 767px) {
 
-    .main-wrapper{
-        padding:15px 0 0 0px;
-    }
+  .main-wrapper {
+      padding: 15px 20px 15px 22px;
+  }
 
     .page-topbar .logo-area,
     .page-topbar.sidebar_shift .logo-area{
@@ -8651,8 +8651,9 @@ line-height: 11px;
     top: -8px;
     right: -9px;
 }
-.social-feeds-container{
-  display: flex;
+.social-feeds-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 .profile-info {
     display: flex;
@@ -8764,5 +8765,21 @@ line-height: 11px;
 }
 .features-comparison-list .brand-row > div{
       max-width: 250px;
+}
+
+@media (max-width: 991px) {
+  .social-feed-view {
+      width: 33.3%;
+  }
+}
+@media (max-width: 678px) {
+  .social-feed-view {
+      width: 50%;
+  }
+}
+@media (max-width: 478px) {
+  .social-feed-view {
+      width: 100%;
+  }
 }
 /*#####################################################################*/
