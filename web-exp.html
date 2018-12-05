@@ -233,9 +233,7 @@
                      <img src="./assets/images/overview.png" alt="" class="overview-icon">
                     <span class="title">Overview</span>
                     <span class="arrow "></span>
-
-
-                        </a>
+                    </a>
 
 
 
@@ -814,6 +812,16 @@ $('.page-sidebar').mouseout(function() {
 
   $('.page-sidebar').height(height).perfectScrollbar({
       suppressScrollX: true
+  });
+</script>
+
+<script type="text/javascript">
+  $(".page-sidebar ul > li").click(function() {
+
+    $('.page-sidebar ul > li').removeClass('open')
+
+    $($(this).addClass('open'))
+
   });
 </script>
 

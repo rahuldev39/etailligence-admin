@@ -8766,7 +8766,12 @@ line-height: 11px;
 .features-comparison-list .brand-row > div{
       max-width: 250px;
 }
-
+.page-sidebar ul li .sub-menu{
+  display: none;
+}
+.page-sidebar ul li.open .sub-menu{
+  display: block;
+}
 @media (max-width: 991px) {
   .social-feed-view {
       width: 33.3%;
