@@ -8791,6 +8791,15 @@ line-height: 11px;
 .email-box .news-feed-content span i {
     font-size: 12px;
 }
+.page-title a i{
+transform: rotate(180deg);
+transition: all ease-in-out 300ms;
+}
+.page-title a.collapsed i{
+  transform: rotate(0deg);
+
+}
+
 @media (max-width: 991px) {
   .social-feed-view {
       width: 33.3%;
