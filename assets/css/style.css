@@ -8779,6 +8779,18 @@ line-height: 11px;
   text-decoration: none;
 }
 
+.email-box p {
+    max-width: 800px;
+    font-size: 12px;
+    margin-top: 8px;
+    line-height: 20px;
+}
+.email-box .news-feed-content span {
+    margin-right: 10px;
+}
+.email-box .news-feed-content span i {
+    font-size: 12px;
+}
 @media (max-width: 991px) {
   .social-feed-view {
       width: 33.3%;
