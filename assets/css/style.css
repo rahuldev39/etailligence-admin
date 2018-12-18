@@ -2520,7 +2520,7 @@ ul.states li {
     border-bottom-color: transparent;
 }
 .nav-tabs.nav-justified>li>a, .nav-tabs>li>a {
-    border: 1px solid #eaeaea;
+    border: 1px solid #dadada;
     border-radius: 0px;
     -o-border-radius: 0px;
     -ms-border-radius: 0px;
@@ -2640,7 +2640,7 @@ ul.states li {
 }
 .tab-content.vertical.left-aligned {
     padding-left: 0px;
-    border: 1px solid #eaeaea;
+    border: 1px solid #dadada;
     border-left: 1px solid #eaeaea;
     margin-left: -1px;
     z-index: 1;
@@ -2657,7 +2657,7 @@ ul.states li {
     border-right-color: transparent;
 }
 .nav-tabs.vertical.left-aligned>li>a {
-    border-right: 1px solid #eaeaea;
+    border-right: 1px solid #dadada;
 }
 .nav-tabs.vertical.left-aligned > li > a {
     margin-bottom: 5px;
@@ -8799,7 +8799,52 @@ transition: all ease-in-out 300ms;
   transform: rotate(0deg);
 
 }
+.email-container {
+    margin-bottom: 35px;
 
+}
+.email-container .tab-content.vertical.left-aligned {
+    min-height: 450px;
+    padding-left: 15px;
+}
+.email-container .nav-tabs.vertical.left-aligned > li > a {
+    font-weight: 600;
+    padding: 10px 19px;
+    font-size: 14px;
+    margin-bottom: 0px;
+    position: relative;
+    margin-left: 4px;
+}
+.email-container .nav-tabs.vertical.left-aligned > li.active > a{
+      margin-left: 0px !important;
+}
+.email-container .nav-tabs.vertical.left-aligned > li.active > a::before {
+    content: "";
+    height: 100%;
+    width: 3px;
+    background-color: #3988f3;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+.email-container .nav-tabs.vertical.left-aligned > li > a span {
+    font-weight: 400;
+    font-size: 12px;
+    display: block;
+    color: #ada6a6;
+    margin-top: 8px;
+}
+.email-container .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.email-container .nav-tabs {
+
+}
+.mail-from {
+    margin-bottom: 11px;
+    font-size: 12px;
+}
 @media (max-width: 991px) {
   .social-feed-view {
       width: 33.3%;
