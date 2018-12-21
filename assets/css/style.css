@@ -8023,8 +8023,29 @@ table.dataTable tfoot th select, table.dataTable tfoot td select{
 table.dataTable.display tbody tr:first-child td {
     border-top: 1px solid #eeeeee;
 }
+.no-mail-found-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 2px dashed #dadada;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0px 12px 13px -13px #bbbbbb;
+}
+.no-mail-found-container .not-found-icon{
 
-
+}
+.no-mail-found-container .not-found-icon img {
+    width: 67px;
+}
+.no-mail-found-container h4 {
+    margin-top: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #162748;
+    font-size: 19px;
+    letter-spacing: 9px;
+}
 /*#####################################################################*/
 
 #main-menu-wrapper  .overview-list
