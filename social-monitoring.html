@@ -52,7 +52,7 @@
     <div class='quick-area'>
         <div class='pull-left'>
             <ul class="info-menu left-links list-inline list-unstyled">
-                
+
                 <li class="message-toggle-wrapper">
                     <a href="#" data-toggle="dropdown" class="toggle">
                         <i class="fa fa-envelope"></i>
@@ -854,6 +854,7 @@ $('.page-sidebar').mouseover(function() {
     $(".page-sidebar").removeClass("collapseit");
     $(".page-topbar").removeClass("sidebar_shift");
     $(".page-sidebar").removeClass("sidebar_shift");
+    $("#main-content").removeClass("sidebar_shift");
 });
 
 $('.page-sidebar').mouseout(function() {
@@ -861,6 +862,7 @@ $('.page-sidebar').mouseout(function() {
     $(".page-sidebar").addClass("collapseit");
     $(".page-topbar").addClass("sidebar_shift");
     $(".page-sidebar").addClass("sidebar_shift");
+    $("#main-content").addClass("sidebar_shift");
 });
 </script>
 
