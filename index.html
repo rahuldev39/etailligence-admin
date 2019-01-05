@@ -45,7 +45,7 @@
 
     <!-- BEGIN BODY -->
     <body class=" "><!-- START TOPBAR -->
-<div class='page-topbar '>
+<div class='page-topbar sidebar_shift'>
     <div class='logo-area'>
 
     </div>
@@ -190,7 +190,7 @@
 
     <!-- SIDEBAR - START -->
 
-<div class="page-sidebar fixedscroll">
+<div class="page-sidebar fixedscroll collapseit">
 
     <!-- MAIN MENU - START -->
     <div class="page-sidebar-wrapper" id="main-menu-wrapper">
@@ -333,7 +333,7 @@
 </div>
 <!--  SIDEBAR - END -->
     <!-- START CONTENT -->
-<section id="main-content" class=" ">
+<section id="main-content" class=" sidebar_shift">
     <section class="wrapper main-wrapper row" style=''>
 
     <div class=''>
@@ -352,8 +352,8 @@
     </div>
 
 
-      <div class="row">
-          <div class="col-md-4">
+      <div class="overview-wrapper">
+          <div class="overview-aside">
             <div class="box-view">
               <div class="box-view-content">
                 <h3>My Brand</h3>
@@ -567,7 +567,7 @@
             </div>
 
           </div>
-          <div class="col-md-8">
+          <div class="overview-main">
             <div class="box-view">
               <div class="box-view-content">
                 <h3>News Feed Sentiment</h3>
@@ -738,10 +738,47 @@
     </div>
 </div>
 <!-- modal end -->
+<script type="text/javascript">
+$('.page-sidebar').mouseover(function() {
+    $("body").addClass("test")
+    $(".page-sidebar").removeClass("collapseit");
+    $(".page-topbar").removeClass("sidebar_shift");
+    $(".page-sidebar").removeClass("sidebar_shift");
+    $("#main-content").removeClass("sidebar_shift");
+});
 
+$('.page-sidebar').mouseout(function() {
+    $("body").addClass("test")
+    $(".page-sidebar").addClass("collapseit");
+    $(".page-topbar").addClass("sidebar_shift");
+    $(".page-sidebar").addClass("sidebar_shift");
+    $("#main-content").addClass("sidebar_shift");
+});
+</script>
+
+<script type="text/javascript">
+
+  var topbar = $(".page-topbar").height();
+  var projectinfo = $(".project-info").innerHeight();
+
+  var height = window.innerHeight - topbar - projectinfo;
+
+  $('.page-sidebar').height(height).perfectScrollbar({
+      suppressScrollX: true
+  });
+</script>
 <script type="text/javascript">
   $('.new-feed-container').height(530).perfectScrollbar({
       suppressScrollX: true
+  });
+</script>
+<script type="text/javascript">
+  $(".page-sidebar ul > li").click(function() {
+
+    $('.page-sidebar ul > li').removeClass('open')
+
+    $($(this).addClass('open'))
+
   });
 </script>
 </body>
