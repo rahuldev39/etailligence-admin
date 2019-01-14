@@ -2528,7 +2528,8 @@ ul.states li {
     -webkit-border-radius: 0px;
     background-color: #f5f5f5;
     color: #333333;
-    margin-right: 5px;
+    margin-right: 0px;
+    font-size: 12px;
 }
 .nav-tabs>li>a i {
     color: #999999;
@@ -2549,7 +2550,7 @@ ul.states li {
 }
 .tab-content {
     padding: 15px;
-    border: 1px solid #eaeaea;
+    border: 1px solid #335390;
     background-color: #ffffff;
     border-top: 0px;
 }
@@ -2593,19 +2594,19 @@ ul.states li {
     color: #555555;
 }
 .nav-tabs.primary > li > a {
-    background-color: #3F51B5;
+    background-color: #1a3b6a;
     color: #ffffff;
-    border: 1px solid #3F51B5;
+    border: 1px solid #1a3b6a;
 }
 .nav.primary >li>a:hover, .nav.primary >li>a:focus {
-    background-color: #fafafa;
-    color: #555555;
+    background-color: #1b467f;
+    color: #fdfdfd;
     border-bottom-color: transparent;
 }
 .nav-tabs.primary>li.active>a, .nav-tabs.primary>li.active>a:hover, .nav-tabs.primary>li.active>a:focus {
-    color: #555555;
+    color: #1c2f54;
     background-color: #fff;
-    border: 1px solid #3F51B5;
+    border: 1px solid #335390;
     border-bottom-color: transparent;
 }
 .nav-tabs.primary {
@@ -4784,7 +4785,7 @@ code {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 7px 15px;
+    padding: 13px 15px;
 }
 .uibadges .badge {
     margin: 5px 5px 0 0;
@@ -8900,109 +8901,25 @@ transition: all ease-in-out 300ms;
 }
 }
 
+.pin-container{
 
-
-
-/* Tabbed Styles */
-.tab-container{
-  margin: 40px 0px
-}
-.tabbed {
-    margin: 0 auto;
-    border-bottom: 4px solid #1c2f55;
-    overflow: hidden;
-    transition: border 250ms ease;
-}
-.tabbed.skin-blue-black ul li,
-.tabbed.skin-blue-black ul li:before,
-.tabbed.skin-blue-black ul li:after {
-    background-color: #68737B;
-}
-.tabbed.skin-blue-black ul li:hover,
-.tabbed.skin-blue-black ul li:hover:before,
-.tabbed.skin-blue-black ul li:hover:after {
-    background-color: #707A83;
-}
-.tabbed ul {
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    float: left;
-    padding-left: 40px;
-    list-style-type: none;
-}
-.tabbed ul * {
-  margin: 0px;
-  padding: 0px;
-}
-.tabbed ul li {
-  display: block;
-  float: right;
-  background-color: #FFF;
-  margin-right: 40px;
-  z-index: 2;
-  position: relative;
-  cursor: pointer;
-  color: #777;
-  transition: all 250ms ease;
-}
-.tabbed ul li a {
-    padding: 10px 12px 8px;
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    position: relative;
-    z-index: 1;
-}
-.tabbed ul li.active a{
-  color: white
-}
-.tabbed ul li:before,
-.tabbed ul li:after {
-  display: block;
-  content: " ";
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 44px;
-  background-color: #FFF;
-  transition: all 250ms ease;
-}
-.tabbed ul li:before {
-  right: -20px;
-  transform: skew(30deg, 0deg);
-  box-shadow: rgba(0,0,0,.1) 3px 2px 5px, inset rgba(255,255,255,.09) -1px 0;
-}
-.tabbed ul li:after {
-  left: -20px;
-  transform: skew(-30deg, 0deg);
-  box-shadow: rgba(0,0,0,.1) -3px 2px 5px, inset rgba(255,255,255,.09) 1px 0;
-}
-.tabbed ul li:hover,
-.tabbed ul li:hover:before,
-.tabbed ul li:hover:after {
-  background-color: #F4F7F9;
-  color: #444;
-}
-.tabbed ul li.active {
-  z-index: 3;
-}
-.tabbed.skin-blue-black ul li.active,
-.tabbed.skin-blue-black ul li.active.hover,
-.tabbed.skin-blue-black ul li.active:before,
-.tabbed.skin-blue-black ul li.active:after {
-    background-color: #193662;
-    color: #fff;
 }
 
-/* Round Tabs */
-.tabbed.round ul li {
-  border-radius: 8px 8px 0 0;
+.pin-container .pin-btn{
+
 }
-.tabbed.round ul li:before {
-  border-radius: 0 8px 0 0;
+
+.pin-container .pin-btn label {
+    margin-right: 0px;
+    margin-left: 19px;
+    cursor: pointer;
 }
-.tabbed.round ul li:after {
-  border-radius: 8px 0 0 0;
+.pin-container .pin-btn label input {
+    display: none;
+}
+.pin-container .pin-btn label input:checked + svg {
+    transform: rotate(-30deg);
+}
+.pin-container .pin-btn label svg{
+  transition: all ease-in-out 300ms
 }
