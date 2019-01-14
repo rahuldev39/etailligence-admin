@@ -8913,13 +8913,15 @@ transition: all ease-in-out 300ms;
     margin-right: 0px;
     margin-left: 19px;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 .pin-container .pin-btn label input {
     display: none;
 }
-.pin-container .pin-btn label input:checked + svg {
+.pin-container .pin-btn label input:checked + img {
     transform: rotate(-30deg);
 }
-.pin-container .pin-btn label svg{
-  transition: all ease-in-out 300ms
+.pin-container .pin-btn label img{
+  transition: all ease-in-out 300ms;
+  width: 18px
 }
