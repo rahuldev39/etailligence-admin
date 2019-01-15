@@ -8918,10 +8918,11 @@ transition: all ease-in-out 300ms;
 .pin-container .pin-btn label input {
     display: none;
 }
-.pin-container .pin-btn label input:checked + img {
-    transform: rotate(-30deg);
+.pin-container .pin-btn label input:checked + i {
+    color: #3988f3;
 }
-.pin-container .pin-btn label img{
-  transition: all ease-in-out 300ms;
-  width: 18px
+.pin-container .pin-btn label i {
+    transition: all ease-in-out 300ms;
+    font-size: 18px !important;
+    color: #a8bace;
 }
