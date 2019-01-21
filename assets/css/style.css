@@ -9111,6 +9111,31 @@ font-family: 'Poppins', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
 }
+.graph-select-container{
+  position: relative;
+}
+.graph-select {
+    border: 0px;
+    color: #c5c6c7;
+    font-size: 11px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    padding-right: 13px;
+}
+.graph-select-container::after {
+    content: "\f107";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    font-size: 15px;
+    color: #c5c6c7;
+    pointer-events: none;
+}
 @media (max-width: 678px) {
   .plan-details {
     flex-direction: column;
