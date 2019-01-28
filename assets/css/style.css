@@ -9109,7 +9109,8 @@ font-family: 'Poppins', sans-serif;
 }
 .trail-btn .btn {
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 12.8px;
+    	letter-spacing: 0.8px;
 }
 .graph-select-container{
   position: relative;
@@ -9186,6 +9187,27 @@ background-color: #E8E8E8;
 .social-graph-tabs {
     box-shadow: -1px 1px 17px 0 rgba(30,30,30,0.05);
     margin-bottom: 20px
+}
+.welcome-content{
+  max-width: 830px;
+  margin: 0 auto;
+}
+.welcome-card .card-img img{
+  	transform: rotate(8deg);
+}
+.welcome-card .card-img{
+  margin-bottom: 68px
+}
+.welcome-card .card-text p {
+    color: #000000;
+    font-size: 16.8px;
+    letter-spacing: -0.37px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 245px;
+}
+.connect-brand{
+  width: 178px;
 }
 @media (max-width: 678px) {
   .plan-details {
